@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center md:p-3 md:px-10 bg-white text-black text-sm">
+      <div className="md:flex md:justify-between md:items-center md:p-3 p-1 md:px-10 bg-white text-black text-sm z-[9999]">
         <div>
           <Image src={logo} alt="Al Bayt Hospital" width={200} />
         </div>
