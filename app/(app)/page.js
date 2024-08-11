@@ -11,7 +11,7 @@ export default function Home() {
     <main className="bg-[url('/login.jpeg')] ">
       {/* <Layout> */}
       <Intro />
-      {/* <Services /> */}
+      <Services /> 
       <section id="doctors" className="bg-white">
         <DoctorsSlider />
       </section>
